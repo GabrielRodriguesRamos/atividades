@@ -1,0 +1,13 @@
+print("bem vindo ao waze ")
+while True 
+  distancia = float(input("digite a distancia do trajeto em km: ")
+  velocidade = float(input("digite sua velocidade em km/h: ")
+  tempo_viagem = distancia / velocidade 
+
+  print(f"o seu trajeto durará {tempo_viagem} horas")
+
+  condicional = input("deseja adicionar um novo trajeto?, 'sim' ou 'não'")
+  if condicional == "sim":
+   continue 
+  else:
+    break
