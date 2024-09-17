@@ -1,0 +1,21 @@
+print("bem vindo ao gerador de tarefas")
+
+tarefa = input("digite sua tarefa")
+print(tarefa + "sua tarefa foi adicionada")
+
+prazo = input("deseja colocar um prazo para esta terefa ?")
+if prazo == "sim":
+  parzo = input("digite o prazo")
+print(prazo + "seu prazo foi adicionado")
+
+if prazo == "não":
+ print( tarefa + "sua tarefa foi adicionada ")
+  
+tarefa = print(input("deseja adicionar outra tarefa ?"))
+print = ("deseja adicionar outra tarefa ?")
+
+if tarefa == "sim":
+  tarefa  = input("digite sua tarefa ")
+
+if tarefa == "não":
+  print("sua tarea foi adicionada")
