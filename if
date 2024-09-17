@@ -1,0 +1,11 @@
+print("vamos viajar")
+saldo = float(input("digite seu saldo"))
+
+if saldo >= 20000:
+  print("vamos viajar para paris")
+
+elif saldo >= 10000:
+  print("vamos viajar para alagoas")
+
+else: 
+  print("vamos ficar em casa")
