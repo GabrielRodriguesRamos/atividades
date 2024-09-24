@@ -1,20 +1,20 @@
-class Carros:
-  def __init__(self, marca, modelo, cor, ano, valor):
+class carro:
+    def __init__(self, marca, modelo, cor, ano, valor):
      self.marca=marca
      self.modelo=modelo
      self.cor=cor
      self.ano=ano
      self.valor=valor 
 class estoque:
-   def__init__(self):
+    def __init__(self):
         self.carros=[]
-   def adicionar_carro(self,carro):
-        self.carro.append(carro)
-   def mostra_estoque(self):
-       for carro in self.carro:
+    def adicionar_carro(self,carro):
+        self.carros.append(carro)
+    def mostra_estoque(self):
+        for carro in self.carros:
            print(f'{carro.modelo}, {carro.marca}')
 carro_1=carro('honda', 'NSX', 'vermelho', '1990', '1.000.000')
-carro_2=carro('pagani', 'zonda', ''preta, '2007', '92.000.000')
+carro_2=carro('pagani', 'zonda', 'preta', '2007', '92.000.000')
 
 estoque =estoque()
 estoque.adicionar_carro(carro_1)
